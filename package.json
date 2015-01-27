@@ -1,0 +1,29 @@
+{
+  "name": "orlandodevs",
+  "version": "1.0.0",
+  "private": "true",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "description": "site for the orlando developers slack group",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJkrusinski/orlando-developers.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/orlando-developers/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/orlando-developers",
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "metalsmith": "^1.1.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.6.0",
+    "st": "^0.5.2"
+  }
+}

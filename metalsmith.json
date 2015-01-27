@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "title": "Orlando Developers",
+    "description": "The Orlando Developers Slack group website"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
+  }
+}
