@@ -12,6 +12,11 @@ var stOpts = {
   gzip: true
 };
 
+// don't cache stuff if in development
+if (process.env.NODE_ENV == 'development') {
+  stOpts.cache = false;
+};
+
 /**
  *  A wee little server, just right for our needs
  */
