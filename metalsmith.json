@@ -4,7 +4,10 @@
     "description": "The Orlando Developers Slack group website"
   },
   "plugins": {
-    "metalsmith-markdown": {},
+    "metalsmith-markdown": {
+      "smartypants": true,
+      "gfm": true
+    },
     "metalsmith-templates": {
       "engine": "handlebars"
     }
