@@ -17,6 +17,11 @@ checkInstall() {
 # Do the build
 
 build() {
+
+  # This should probs go away?
+  echo -e "---\ntemplate: index.html\n---\n" > src/index.md
+  cat readme.md >> src/index.md
+
   ./node_modules/.bin/metalsmith
 }
 
