@@ -1,6 +1,12 @@
-
-* {
+html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  font: 16px/24px sans-serif;
 }
