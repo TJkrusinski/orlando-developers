@@ -2,6 +2,7 @@
 
 var http = require('http');
 var st = require('st');
+var webhooks = require('./lib/webhooks');
 
 var port = process.env.PORT || 3000;
 var stOpts = {
@@ -12,7 +13,7 @@ var stOpts = {
   gzip: true
 };
 
-// don't cache stuff if in development
+// don't let st cache stuff if in development
 if (process.env.NODE_ENV == 'development') {
   stOpts.cache = false;
 };
@@ -21,6 +22,15 @@ if (process.env.NODE_ENV == 'development') {
  *  A wee little server, just right for our needs
  */
 
-http.createServer(st(stOpts)).listen(port, function() {
+http.createServer(function(req, res){
+
+  // TODO: maybe move to a framework, idk
+  if (req.url.toLowerCase() == '/invite' && req.method == 'POST') {
+    webhooks.invite(req, res);
+  } else {
+    st(stOpts)(req, res); 
+  };
+
+}).listen(port, function() {
   console.log('Orlando developers server listening on port %s', port);
 });
