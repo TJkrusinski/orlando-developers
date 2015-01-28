@@ -10,6 +10,10 @@ The Slack is invitation-only, but invitations are freely granted. You can reques
 
 Orlando Developers Slack was created to foster the software development community in Orlando. We encourage sharing your knowledge, asking questions, forming relationships and a general ambition to strengthen the community.
 
+### Am I eligible to join?
+
+In short, yes! We are really open to having as many people that want to be a part, be a part. There are no hard rules on who is able to join and who is not. The only consideration is that the purpose of the group is to grow local relationships. That means if have attended meet ups in Orlando, work for a company based out of Orlando, work with other developers in Orlando, or have some similar affiliation, join us!
+
 ### What are the rules?
 
 Basically just be nice, treat others how you would like to be treated.
