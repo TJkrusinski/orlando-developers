@@ -4,7 +4,7 @@ Orlando Developers Slack is a place for software developers who live or work in 
 
 ### How do I join?
 
-The Slack is invitation-only, but invitations are freely granted. You can request one from any existing member or by emailing tjkrus@gmail.com.
+The Slack is invitation-only, but invitations are freely granted. You can request one from any existing member or by emailing tjkrus@gmail.com. If you are already a member, you can use a slash command to invite other users, eg: `/requestinvite name@email.com` and and admin will handle the request!
 
 ### Why does this exist?
 
