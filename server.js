@@ -27,6 +27,8 @@ http.createServer(function(req, res){
   // TODO: maybe move to a framework, idk
   if (req.url.toLowerCase() == '/invite' && req.method == 'POST') {
     webhooks.invite(req, res);
+  } else if (req.url.toLowerCase() == '/admin' && req.method == 'POST') {
+    webhooks.admin(req, res);
   } else {
     st(stOpts)(req, res); 
   };
