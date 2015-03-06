@@ -43,6 +43,7 @@ Orlando Developers Slack is a harassment free space. We do not tolerate harassme
 * Continued one-on-one communication after requests to cease
 * Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse
 * Publication of non-harassing private communication
+* Creating chat channels with offensive motives or intent
 
 ##### Reporting
 
